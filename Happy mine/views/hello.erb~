@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Hello </title>
+	</head>
+	<body>
+		<h1> Greetings, <%= @name %>. Well met. </h1>
+		<h2> You are <%= @age %> years old. </h2>
+
+		<% if @gender == 'male' %>
+			<h3> You are a boy. </h3>
+		<% elsif @gender == 'female' %>
+			<h4> You are a girl. </h4>
+		<% else %>
+			<h5> You are a creature. </h5>
+		<% end %>
+
+	</body>
+</html>

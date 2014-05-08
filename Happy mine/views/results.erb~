@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+	<html>
+		<body>
+			<h1> You searched for "<%= @term %>" </h1>
+				<a href= "http://google.com/search?q=<%= @term %>"> Click here to go to Google. </a>
+		</body>
+	</html>

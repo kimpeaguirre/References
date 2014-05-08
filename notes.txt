@@ -1,0 +1,48 @@
+Source Control - Keep history of code. Merge etween different people/
+
+Github- an example of a repository, which is a storage place for code.
+
+			Commit- snapshot of code at a point in time.
+
+git init (initialize) -> to create repository in the folder you are in
+git add . -> adds all files in the folder to the repository
+git commit -m "[your message]"
+
+git	 remote add origin blabla copy paste from github -> to make your copy aware that there is another copy on github that you want to sync to 
+
+git push -u origin master (for first time push)
+
+
+
+how to git clone
+user@F227-28:~/123100/trygit/happy$ cd ..
+user@F227-28:~/123100/trygit$ cd..
+cd..: command not found
+user@F227-28:~/123100/trygit$ cd ..
+user@F227-28:~/123100$ mkdir firstgitfromjenny
+user@F227-28:~/123100$ cd firstgitfromjenny
+user@F227-28:~/123100/firstgitfromjenny$ git clone https://github.com/jenellywong/whatever.git
+Cloning into 'whatever'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 0), reused 4 (delta 0)
+Unpacking objects: 100% (4/4), done.
+user@F227-28:~/123100/firstgitfromjenny$ git log
+fatal: Not a git repository (or any of the parent directories): .git
+user@F227-28:~/123100/firstgitfromjenny$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+user@F227-28:~/123100/firstgitfromjenny$ ls
+whatever
+user@F227-28:~/123100/firstgitfromjenny$ cd whatever
+user@F227-28:~/123100/firstgitfromjenny/whatever$ git log
+commit 9e38b421d4e3105dd1ff1eb4292114611eb020e3
+Author: F227 <user@F227-27.(none)>
+Date:   Wed Apr 30 11:19:01 2014 +0800
+
+    first git cool
+
+git add . -> adds all files in the folder to the repository
+git commit -m "[your message]
+git push
+
+http://www.inc.com/jeff-haden/30-incorrectly-used-words-that-can-make-us-look-stupid.html?cid=sf01002
